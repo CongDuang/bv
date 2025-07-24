@@ -23,16 +23,16 @@ BV ~~(Bug Video)~~ 是一款 [哔哩哔哩](https://www.bilibili.com) 的第三�
 
 ### 界面优化：
 - 首页改为动态
-- 左侧导航栏重做，不再作为抽屉展开
-![首页](https://github.com/Frost819/picx-images-hosting/raw/master/Screenshot_20250630_162604.5c193jucfm.webp)
+- 左侧导航栏重做，不再作为抽屉展开，并增加了个人页tab
+![首页个人页](https://github.com/Frost819/picx-images-hosting/raw/master/Screenshot_20250724_105423.54y2633d2z.webp)
 - 重写主页、分区页列表逻辑并简化了部分动画，大幅提升滚动流畅度
 - up主页和搜索结果卡片增加播放量和弹幕量
 - 大部分场景视频卡片增加投稿时间显示
 - 默认弹幕比例175，透明度70，弹幕区域50%（4K电视友好）
 - 删除进入播放器左下角信息
 - 优化视频grid卡片标题显示（标题改为2行且宽度增加）
-- 优化视频中按下键显示的视频信息显示
-![播放器内信息](https://Frost819.github.io/picx-images-hosting/Screenshot_20250617_134623.sz7hvk7qv.webp)
+- 账户页弹窗简化
+![账户页弹窗](https://github.com/Frost819/picx-images-hosting/raw/master/Screenshot_20250724_105456.8dx62qqupi.webp)
 
 ### 功能优化：
 - 你懂的
@@ -47,6 +47,8 @@ BV ~~(Bug Video)~~ 是一款 [哔哩哔哩](https://www.bilibili.com) 的第三�
 - 视频详情页逻辑优化，不再优先显示合集
 ![视频详情页](https://github.com/Frost819/picx-images-hosting/raw/master/Screenshot_20250630_162642.1lc3ib5h87.webp)
 - 主页、分区页、影视页内按菜单键可刷新视频列表（follow BBLL）
+- 优化视频中按下键显示的视频信息显示，增加快捷按钮
+![播放器内信息](https://github.com/Frost819/picx-images-hosting/raw/master/Screenshot_20250724_110001.6pnt5k0kj4.webp)
 - bug fixes
 
 ## Update Notes
@@ -90,11 +92,19 @@ BV ~~(Bug Video)~~ 是一款 [哔哩哔哩](https://www.bilibili.com) 的第三�
 - 修复小米电视首页刷新闪退
 - 修复视频中按上键显示视频列表闪退
 
+### 0.3.1 r772
+- 个人页（收藏、历史、稍后再看、追番）独立到左侧新导航栏
+- 账号弹窗重做，不再显示账户页
+- 优化分区页切换tab栏加载速度
+- 合并原版删除搜索记录功能
+- 视频内信息页集成快进快退功能，增加进度条下方快捷按钮
+- 修复弹幕播放器内存溢出导致的无响应崩溃
+- 当视频时长大于1小时显示小时:分:秒格式
+
 ## Todo
 - 播放完成行为设置，类似BBLL
-- 默认首页设置
-- 个人页独立
-- 进度条下方快捷键，类似bbll
+- 设置页重构，增加默认首页设置等
+- 丰富进度条下方快捷键
 
 ## License
 
